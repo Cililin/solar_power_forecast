@@ -4,3 +4,9 @@
 *.ptx
 *.cubin
 *.fatbin
+__pycache__/
+*.pyc
+*.log
+venv/
+.env
+.DS_Store
