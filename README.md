@@ -10,17 +10,17 @@
 
 ```
 solar-power-forecast/
-├── app.py                          # 主要Flask应用（原始版）
-├── app-2.py                        # 中文优化版Flask应用
-├── optimized_train_models.py       # 优化模型训练脚本
+├── app.py                          # Flask应用（version1.0）
+├── app_opt.py                      # Flask应用（version2.0）
 ├── data_preprocessor.py            # 数据预处理模块
 ├── saved_models/                   # 原始模型保存目录
+├── optimized_train_models.py       # 优化模型训练脚本
 ├── final_output/                   # 优化模型输出目录
-│   ├── xgboost_hourly.pkl         # 优化小时模型
-│   ├── xgboost_daily.pkl          # 优化日模型
-│   ├── xgboost_weekly.pkl         # 优化周模型
-│   ├── evaluation_results.json    # 优化评估结果
-│   └── *.png                      # 预测图表
+│   ├── xgboost_hourly.pkl          # 优化小时模型
+│   ├── xgboost_daily.pkl           # 优化日模型
+│   ├── xgboost_weekly.pkl          # 优化周模型
+│   ├── evaluation_results.json     # 优化评估结果
+│   └── *.png                       # 预测图表
 ├── processed_data/                 # 预处理后的数据
 ├── model_output/                   # 模型输出文件
 ├── templates/                      # HTML模板
@@ -89,10 +89,11 @@ pip install -r requirements.txt
 ### 安装步骤
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourusername/solar-power-forecast.git
+git clone https://github.com/Cililin/solar_power_forecast.git
 cd solar-power-forecast
 
 # 2. 安装依赖
+# conda环境自行定义即可
 pip install -r requirements.txt
 
 # 3. 数据预处理
@@ -104,7 +105,7 @@ python optimized_train_models.py
 # 5. 启动Web应用
 python app.py  # 原始版
 # 或
-python app-2.py  # 中文优化版（端口5002）
+python app_2.py  # 优化版（端口5002）
 ```
 
 ### 访问应用
