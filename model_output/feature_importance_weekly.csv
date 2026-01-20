@@ -1,0 +1,16 @@
+feature,importance
+generation_rate_ma_4w,0.14922963
+generation_rate_lag_1w,0.10101242
+humidity_percent,0.08197334
+temperature_c,0.07867347
+solar_radiation_w_m2,0.07812033
+cloud_index,0.07320599
+week_of_year,0.07198157
+generation_rate_ma_12w,0.066148266
+week_sin,0.05830065
+generation_rate_lag_4w,0.056126438
+week_cos,0.0557092
+wind_speed_10m_mps,0.054556243
+month,0.047199678
+year,0.027762746
+quarter,0.0
