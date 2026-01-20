@@ -1,0 +1,38 @@
+{
+  "hourly": {
+    "r2": 0.5398513114732235,
+    "mae": 14.299841732624905,
+    "rmse": 18.48144270744845,
+    "wmape": 26.33826576628515,
+    "test_size": 4916,
+    "test_date_range": {
+      "start": "2024-10-17 08:00:00",
+      "end": "2025-12-31 18:00:00"
+    },
+    "params": "{'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.1, 'reg_lambda': 1.0, 'min_child_weight': 3, 'gamma': 0.1, 'random_state': 42, 'n_jobs': -1, 'objective': 'reg:squarederror'}"
+  },
+  "daily": {
+    "r2": 0.4809285064807437,
+    "mae": 2.4158431378881735,
+    "rmse": 3.054279489121966,
+    "wmape": 10.393062010818694,
+    "test_size": 437,
+    "test_date_range": {
+      "start": "2024-10-21",
+      "end": "2025-12-31"
+    },
+    "params": "{'n_estimators': 200, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.15, 'reg_lambda': 1.2, 'min_child_weight': 5, 'random_state': 42, 'n_jobs': -1, 'objective': 'reg:squarederror'}"
+  },
+  "weekly": {
+    "r2": 0.2912722698700769,
+    "mae": 1.235362656771067,
+    "rmse": 1.5099228532777123,
+    "wmape": 5.328613556303972,
+    "test_size": 62,
+    "test_date_range": {
+      "start": "2024-11-03",
+      "end": "2026-01-04"
+    },
+    "params": "{'n_estimators': 150, 'max_depth': 3, 'learning_rate': 0.05, 'subsample': 0.9, 'colsample_bytree': 0.9, 'reg_alpha': 0.2, 'reg_lambda': 1.5, 'min_child_weight': 8, 'random_state': 42, 'n_jobs': -1, 'objective': 'reg:squarederror'}"
+  }
+}

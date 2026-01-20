@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-01-19 13:21:38",
+  "models_trained": [
+    "hourly",
+    "daily",
+    "weekly"
+  ],
+  "evaluation_results": {
+    "hourly": {
+      "mae": 20.16461988018006,
+      "rmse": 34.426763120732886,
+      "r2": -0.22472971129662445,
+      "wmape": 86.11299617732608,
+      "smape": 345.3421006159677,
+      "test_size": 10522,
+      "test_date_range": {
+        "start": "2024-10-19 14:00:00",
+        "end": "2025-12-31 23:00:00"
+      },
+      "targets_met": {
+        "r2": false,
+        "mape": false,
+        "mae": false,
+        "rmse": false
+      }
+    },
+    "daily": {
+      "mae": 2.414088571860225,
+      "rmse": 3.0610700247911815,
+      "r2": 0.4764260606385031,
+      "wmape": 10.38704355325696,
+      "smape": 21.123849610157315,
+      "test_size": 439,
+      "test_date_range": {
+        "start": "2024-10-19 00:00:00",
+        "end": "2025-12-31 00:00:00"
+      },
+      "targets_met": {
+        "r2": false,
+        "mape": false,
+        "mae": false,
+        "rmse": false
+      }
+    },
+    "weekly": {
+      "mae": 1.2362760725879385,
+      "rmse": 1.515867970572291,
+      "r2": 0.29413312341114684,
+      "wmape": 5.323824550587815,
+      "smape": 10.735546354505573,
+      "test_size": 63,
+      "test_date_range": {
+        "start": "2024-10-27 00:00:00",
+        "end": "2026-01-04 00:00:00"
+      },
+      "targets_met": {
+        "r2": false,
+        "mape": true,
+        "mae": false,
+        "rmse": false
+      }
+    }
+  },
+  "training_summary": {}
+}
