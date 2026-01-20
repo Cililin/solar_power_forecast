@@ -1,0 +1,43 @@
+
+/* 优化版样式补充 */
+.toast {
+    border-radius: 10px;
+}
+
+.text-purple {
+    color: #6f42c1 !important;
+}
+
+.badge.rounded-pill {
+    font-size: 0.85rem;
+    padding: 0.4em 0.8em;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0.75rem 0;
+}
+
+.param-box {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.6rem;
+    }
+    
+    .metric-value {
+        font-size: 1.6rem;
+    }
+    
+    .btn-optimized {
+        width: 100%;
+    }
+    
+    .param-box {
+        font-size: 0.75rem;
+    }
+}
